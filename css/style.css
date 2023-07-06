@@ -1,6 +1,15 @@
 body {
 	font-family: Arial, sans-serif;
 	margin: 0px;
+	height: 100vh;
+	color: white;
+}
+
+body#accueil {
+	background-image: url("/img/github-simbolo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
 }
 
 header {
@@ -14,6 +23,36 @@ nav {
 	display: flex;
 	justify-content: center;
 	margin-top: 20px;
+}
+
+nav a {
+	font-size: 20px;
+	background-color: #8985A6;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 8px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+	background-color: #F0F0F2;
+	color: black;
+}
+
+body#accueil nav a {
+	font-size: 20px;
+	background-color: #8985A6;
+	color: white;
+	padding: 8px 16px;
+	border-radius: 8px;
+	text-decoration: none;
+	transition: all 0.3s ease-in-out;
+}
+
+body#accueil nav a:hover {
+	background-color: #F0F0F2;
+	color: black;
 }
 
 nav ul {
@@ -37,12 +76,15 @@ section {
 	margin: 20px;
 	padding: 20px;
 	text-align: left;
+	background-color: #D1D0D9;
+	color: black;
+	border-radius: 6px;
 }
 
 .membre1 {
-	background-color: lightcoral;
+	background-color: #181A40;
 }
 
 .membre2 {
-	background-color: lightgreen;
+	background-color: #181A40;
 }
